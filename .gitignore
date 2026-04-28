@@ -1,0 +1,337 @@
+# ====================
+# Python
+# ====================
+
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Распределённые файлы
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Утилиты тестирования
+.pytest_cache/
+.coverage
+.coverage.*
+.htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Профилирование
+*.prof
+*.lprof
+
+# ====================
+# Виртуальные окружения
+# ====================
+
+# venv / virtualenv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.env
+.venv
+.virtualenv
+virtualenv/
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Conda
+*.pth
+conda-meta/
+
+# ====================
+# IDEs и редакторы
+# ====================
+
+# VS Code
+.vscode/
+*.code-workspace
+.settings/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.~*
+.*.swp
+.*.swo
+.*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# Spyder
+.spyproject/
+.spyderproject
+.spyderworkspace
+
+# ====================
+# Логи и временные файлы
+# ====================
+
+# Логи
+*.log
+logs/
+*.log.*
+debug.log
+error.log
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+*.swatch
+*.pid
+*.seed
+*.pid.lock
+.cache/
+
+# Дампы памяти
+*.dump
+*.dmp
+*.core
+
+# ====================
+# Операционные системы
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.Trashes
+*.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+.directory
+*.directory~
+*.bak~
+
+# ====================
+# Базы данных
+# ====================
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ====================
+# Файлы приложения (данные пользователя)
+# ====================
+
+# JSON файлы с данными (чтобы не закоммитить реальные данные пользователя)
+tasks.json
+history.json
+*.json.backup
+*.json.bak
+user_data.json
+settings.json
+
+# Другие файлы данных
+*.dat
+*.data
+*.bin
+*.pkl
+*.pickle
+*.joblib
+
+# ====================
+# Документация и сборка
+# ====================
+
+# Sphinx
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# MkDocs
+site/
+.cache/
+.mkdocs/
+
+# ====================
+# Файлы упаковки
+# ====================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ====================
+# Docker
+# ====================
+
+.dockerignore
+Dockerfile
+docker-compose*.yml
+*.dockerfile
+.docker/
+
+# ====================
+# Конфигурационные файлы (локальные)
+# ====================
+
+config.local.*
+*.local.*
+.env.local
+.env.*.local
+*.secret
+*.key
+*.pem
+*.crt
+*.cert
+private.key
+
+# ====================
+# Файлы отладки
+# ====================
+
+*.pdb
+*.dmp
+*.stackdump
+
+# ====================
+# Файлы линтеров и форматтеров
+# ====================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.bandit
+.bandit_file
+
+# ====================
+# Автосохраняемые файлы
+# ====================
+
+*.*~
+*.autosave
+*.autosave.*
+.~lock.*
+
+# ====================
+# Excel временные файлы
+# ====================
+
+~$*.xlsx
+~$*.xls
+*.xlk
+
+# ====================
+# Другое
+# ====================
+
+# Файлы с чувствительной информацией
+secrets.txt
+passwords.txt
+*.keychain
+
+# Проекты
+*.code-workspace
+*.sln
+*.csproj
+*.vcxproj
+
+# Бекапы
+*.backup
+backup_*/
+*_backup/
+
+# Отчёты
+*.pdf
+*.html
+reports/
+test-reports/
